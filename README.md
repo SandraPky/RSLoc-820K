@@ -16,8 +16,14 @@
 
 
 ## 🌍 数据集亮点
+
+![dataset Example Image(15 zoom level)](paper/dataset.png)
+RSLoc-82K数据集 数据示例 待定位图像/对应参考图像（部分）
+
 ### 📊 关键特性
 - **参考图库集：大规模、连续覆盖**  
+
+
 
   包含**多层级**、**多分辨率**、**多时相**卫星遥感影像，覆盖多种地形
   
@@ -29,36 +35,45 @@
 | 16          | 3,216,120  | 1991-12-31 to 2023-8-16             | 2.389             | 611.494m     |
 | Total       | 4,347,460  | 1985-12-31 to 2020-12-31            | —                 | —            |
 
-  其中，包含 15层级具有 **820,000+** 张地理参考图像，分辨率约 **4.777m**，是论文使用的主要参考图像。
-  
-  ![dataset Example Image(15 zoom level)](paper/dataset.jpg)
+其中，**15层级**图像数据是论文使用的主要参考图像，包含**820,000+** 张地理参考图像 ，分辨率约 **4.777m**。
+
+![dataset Example Image(15 zoom level)](paper/gallery_area.PNG)
+参考图库集连续覆盖的地理范围
 
 - **真实场景挑战**  
-  待定位图像400张，模拟跨时相（季节变化）、跨源（多卫星源）、跨尺度（多层级与分辨率）及等实际定位难题。
+  待定位图像400张，尺度较大可进行切割，主要分为城市(48张)和非城市(352张)遥感场景。
 
-  ![dataset Example Image(15 zoom level)](paper/test_imgs.png)
+  ![city Example Image(15 zoom level)](paper/test_imgs_city.PNG)
+  待定位图像：**城市**场景（F*文件）
 
+  ![notcity Example Image(15 zoom level)](paper/test_imgs_notcity.PNG)
+  待定位图像：**非城市**场景（a*/b*文件）
 
-- **结构化标注**  
-  每张图像提供精确地理坐标（WGS84）、拍摄时间、传感器类型及地形类别标签，支持端到端空间建模。
+- **地理信息完整**  
+
+  图像来自arcgis（a**.tiff/F**.tiff）和mapbox(a**.tiff), 数据集中提供tiff格式的元数据图像，可获得图像具体像素坐标/覆盖范围（WGS84），支持定位方法的准确性评估。
 
 ### 🚀 设计目标
 - 填补现有数据集（如University-1652、SUES-200）在规模与场景覆盖上的不足。
 - 为评估大规模地理定位算法的鲁棒性、泛化性及计算效率提供标准化基准。
 
 ---
+
 ## 🗂️ 数据集结构
 RSLoc-82K/
 ├── queries/ # 测试集（500张）
-│ ├── test/ # 用于参数测试
-│ ├── queries/ # 用于验证
-│ └── metadata_images/ # 元数据图像文件（tiff格式）
+│   ├── test100/ # 用于参数测试
+│   ├── test400/ # 用于验证
+│   │   ├── a*_L15_arcgis.tiff/m*_L15_mapbox.tiff # 非城市
+│   │   └── F*_L15_arcgis.tiff # 城市
+│   │
+│   └── test100.csv/ # 图像对应地理信息（中心坐标、层级、尺寸、分辨率、卫星、地理坐标范围）
+│   └── test400.csv/ # 
 │
 └── references/ # 图库集（参考数据库，连续覆盖，超过820,000张）
-│
-└── evaluation_scripts/ # 评估工具包
-└── topk_accuracy.py # Top-K准确率计算
-└── geospatial_utils/ # 地理空间分析工具
+└── demo/ # 数据处理工具 
+│   ├──evaluation_scripts/ # 评估工具包
+│   └──geospatial_utils/ # 地理空间分析工具
 
 ---
 
