@@ -1,90 +1,184 @@
 # RSLoc-82K: A Large-Scale Benchmark for Remote Sensing Image Geo-Localization
 
-#### 这是论文 “Large-Scale Geo-Localization of Remote Sensing Images: A Three-Stage Framework Leveraging Maximal Clique Theory” 的官方数据集。
-
-#### 测绘遥感信息工程全国重点实验室（武汉大学）
+#### Official dataset for the paper "Large-Scale Geo-Localization of Remote Sensing Images: A Three-Stage Framework Leveraging Maximal Clique Theory."
+#### National Key Laboratory of Surveying, Mapping and Remote Sensing (Wuhan University)
 
 ---
 
-## 💬 简介
+## 💬 Introduction
 
-**RSLoc-82K** 是首个面向大规模遥感图像地理定位任务的开源基准数据集，旨在推动复杂场景下的高精度地理空间感知研究。
+**RSLoc-82K** is the first open-source benchmark dataset for large-scale remote sensing image geo-localization tasks, designed to promote high-precision geospatial perception research in complex scenarios.
 
-本数据集包含 **82,000+** 高分辨率遥感影像，覆盖 **100万平方公里** 的多样化地形，支持基于地理空间建模定位算法的评测。
+The dataset contains **82,000+** high-resolution remote sensing images covering **1 million square kilometers** of diverse terrain, supporting the evaluation of geospatial modeling-based localization algorithms.
 
-🔗 **数据访问** | 📄 [论文链接（待发布）]() | 📦 [数据集]() | 💻 [代码仓库](https://github.com/SandraPky/RSLoc-82K)
+🔗 **Data Access** | 📄 [Paper Link (To Be Published)]() | 📦 [Dataset](https://github.com/SandraPky/RSLoc-82K) | 💻 [Code Repository](https://github.com/SandraPky/RSLoc-82K)
 
 
-## 🌍 数据集亮点
+## 🌍 Dataset Highlights
 
 ![dataset Example Image(15 zoom level)](paper/dataset.png)
-RSLoc-82K数据集 数据示例 待定位图像/对应参考图像（部分）
-
-### 📊 关键特性
-- **参考图库集：大规模、连续覆盖**  
-
-
-
-  包含**多层级**、**多分辨率**、**多时相**卫星遥感影像，覆盖多种地形
+Example images from the RSLoc-82K dataset: query image/reference image pair (partial).
   
-| Zoom level | Tile Count | Time Range                         | Resolution (m/px) | Tile Spacing |
-|-------------|------------|-------------------------------------|-------------------|--------------|
-| 13          | 66,144     | 2020/12/31                          | 19.109            | 4891.970m    |
-| 14          | 240,400    | 1985-12-31 to 2023-8-16             | 9.554             | 2445.985m    |
-| 15     | 824,796| 1991-12-31 to 2023-8-16     | 4.777             | 1222.991m    |
-| 16          | 3,216,120  | 1991-12-31 to 2023-8-16             | 2.389             | 611.494m     |
-| Total       | 4,347,460  | 1985-12-31 to 2020-12-31            | —                 | —            |
+### 🚀 Design Goals
+- Fill the gaps in existing datasets (e.g., University-1652, SUES-200) in terms of scale and scene coverage.
+- Provide a standardized benchmark to evaluate the robustness, generalization, and computational efficiency of large-scale geo-localization algorithms.
 
-其中，**15层级**图像数据是论文使用的主要参考图像，包含**820,000+** 张地理参考图像 ，分辨率约 **4.777m**。
+### 📊 Key Features
+- **Reference Gallery: Large-Scale, Continuous Coverage**  
+  
+  Contains ***multi-level***, ***multi-resolution***, and ***multi-temporal*** satellite remote sensing images, covering various terrains.
+   
+    | Zoom level | Tile Count | Time Range                         | Resolution (m/px) | Tile Spacing |
+    |-------------|------------|-------------------------------------|-------------------|--------------|
+    | 13          | 66,144     | 2020/12/31                          | 19.109            | 4891.970m    |
+    | 14          | 240,400    | 1985-12-31 to 2023-8-16             | 9.554             | 2445.985m    |
+    | 15     | 824,796| 1991-12-31 to 2023-8-16     | 4.777             | 1222.991m    |
+    | 16          | 3,216,120  | 1991-12-31 to 2023-8-16             | 2.389             | 611.494m     |
+    | Total       | 4,347,460  | 1985-12-31 to 2020-12-31            | —                 | —            |
 
-![dataset Example Image(15 zoom level)](paper/gallery_area.PNG)
-参考图库集连续覆盖的地理范围
+   Among these, the ***Level 15*** image data is the primary reference used in the paper, containing ***820,000+*** geo-referenced images with a resolution of about ***4.777m***.
+    - Continuous geospatial coverage of the reference gallery
+    ![dataset Example Image(15 zoom level)](paper/gallery_area.PNG)
+    
+    - Reference gallery data information
+    ![dataset Example Image(15 zoom level)](paper/gallery_info.PNG)
 
-- **真实场景挑战**  
 
-  待定位图像**400**张，尺度较大可进行切割，主要分为**城市(48张)**和**非城市(352张)**遥感场景。
+- **Real-World Scene Challenges**  
 
+  The query set contains ***500*** images with large-scale scenes that can be cropped. They are mainly divided into ***urban (48 images)*** and ***non-urban (352 images)*** remote sensing scenes.
+  
+  - Query image: ***Urban*** scene (F* files)
   ![city Example Image(15 zoom level)](paper/test_imgs_city.PNG)
 
-  待定位图像：**城市**场景（F*文件）
-
+  - Query image: ***Non-urban*** scene (a*/b* files)
   ![notcity Example Image(15 zoom level)](paper/test_imgs_notcity.PNG)
 
-  待定位图像：**非城市**场景（a*/b*文件）
-
-- **地理信息完整**  
-
-  图像来自arcgis（a**.tiff/F**.tiff）和mapbox(a**.tiff), 数据集中提供tiff格式的元数据图像，可获得图像具体像素坐标/覆盖范围（WGS84），支持定位方法的准确性评估。
-
-  
-### 🚀 设计目标
-- 填补现有数据集（如University-1652、SUES-200）在规模与场景覆盖上的不足。
-- 为评估大规模地理定位算法的鲁棒性、泛化性及计算效率提供标准化基准。
+- **Complete Geospatial Information**  
+    
+    The dataset provides TIFF-format metadata images, allowing you to retrieve pixel coordinates/coverage (WGS84), supporting the accuracy assessment of localization methods.
+    
+    The images are from ArcGIS (a**.tiff/F**.tiff) and Mapbox (a**.tiff**).
 
 ---
 
-## 🗂️ 数据集结构
-```bash
-RSLoc-82K/
-├── queries/ # 测试集（500张）
-│   ├── test100/ # 用于参数测试
-│   ├── test400/ # 用于验证
-│   │   ├── a*_L15_arcgis.tiff/m*_L15_mapbox.tiff # 非城市
-│   │   └── F*_L15_arcgis.tiff # 城市
-│   │
-│   └── test100.csv/ # 图像对应地理信息（中心坐标、层级、尺寸、分辨率、卫星、地理坐标范围）
-│   └── test400.csv/ # 
-│
-└── references/ # 图库集（参考数据库，连续覆盖，超过820,000张）
-└── demo/ # 数据处理工具 
+## 🗂️ Dataset Download and Structure
+
+RSLoc-82K/  \
+├── RSimages/ # Query set (500 images)  \
+│   ├── [test100](https://drive.google.com/file/d/1UrY4ZTH1hpUsdQuwDZTyp90--GgiX2FS/view?usp=drive_link) /  # 用于参数测试  \
+│   │    └── XXX.tiff  \
+│   ├── [test400](https://drive.google.com/file/d/1vu6n1yaNBWjLipFP2TQhBOGJBbYP2z8W/view?usp=drive_link) /  # 用于验证  \
+│   │    └── XXX.tiff  \
+│   │  \
+│   └── test100.csv    # Geospatial information of the images (center coordinates, zoom level, size, resolution, satellite, geographic bounds)  \
+│   └── test400.csv    #   \
+│  \
+└── Gallery/  # Reference gallery (continuous coverage images)  \
+│   ├── gallery.db  # Multi-level, large data size; please contact the author for access  \
+│   └── [galleryL15.db]()  # L15 level 820,000+ images  \
+│   \
+└── demo/  # Data processing tools
 
 ---
 
-## 📥 下载与使用
-### 步骤1：下载数据集
+## 📥 Dataset Usage
+### Gallery
+- Visualization
+
+    The ***gallery.db/galleryL15.db*** database is in ***SQLite*** format. You can open it using database software such as ***DBeaver*** to view the images.
+
+- Data Access(Python environment)
+
+Python environment:
 ```bash
-# 通过Git LFS下载（推荐）
-git clone https://github.com/yourusername/RSLoc-82K-dataset.git
-cd RSLoc-82K-dataset
-git lfs pull
-### 步骤2：快速验证
+import sqlite3
+import numpy as np
+import cv2
+```
+```bash
+### demo/gallery.py
+
+### Data extraction and save as JPG
+gallery_dir = './RSLoc-82K/galleryL15.db'
+connection = sqlite3.connect(gallery_dir)
+cursor = connection.cursor()
+sql = "select rowid,zoom_level,tile_column,tile_row,time_ from ge_tiles"
+cursor.execute(sql)
+rows = cursor.fetchall()
+for row in rows:
+    rowid,zoom_level, tile_column, tile_row, time,tile_data = row
+    image = np.asarray(bytearray(tile_data), dtype="uint8")
+    image = cv2.imdecode(image, cv2.IMREAD_COLOR)
+    
+    # ... Image processing
+    
+    cv2.imwrite('./img_dir/imgname.jpg', image)
+```
+
+```bash
+### Stitch 3x3 tiles into a large image
+def extract_db_image_expand_np(connection,level,col,row, size=3):
+    cursor = connection.cursor()
+    trans_image = np.ones((256*size, 256*size, 3), dtype=np.uint8) * 255  # 初始化图像矩阵
+    s = int(size / 2)  #
+    s_ = -s
+    for i in range(s_,s+1,1):
+        for j in range(s_,s+1,1):
+            clevel = level
+            ccol = col + j
+            crow = row + i
+            sql = f"select rowid,tile_data  from ge_tiles where zoom_level = {clevel} and tile_column = {ccol} and tile_row = {crow}"
+            cursor.execute(sql)
+            rows = cursor.fetchmany(1)
+            if len(rows) == 0:
+                continue
+            # 获取图像数据并进行解码、拼接
+            rowid, tile_data = rows[0]
+            image = np.asarray(bytearray(tile_data), dtype="uint8")
+            image = cv2.imdecode(image, cv2.IMREAD_COLOR)
+            trans_image[(i+s)*256:(i+s+1)*256,(j+s)*256:(j+s+1)*256,:] = image[:, :, :]
+    return trans_image
+```
+```bash
+### Other functions in demo/gallery.py
+# Tile row/column -> center latitude/longitude
+def xyztolonlat(level, col, row):
+
+# Tile row/column -> latitude/longitude bounds
+def xyztolonlatmm(level, col, row):
+
+# Latitude/longitude -> tile row/column index
+def geo_to_tile(level, lon, lat):
+
+# Calculate spatial resolution of tile at a specific level
+def compute_res(level):
+
+```
+### RS Image Data
+
+Python environment:
+```bash
+from osgeo import gdal
+from pyproj import CRS, transform, Transformer
+```
+
+```bash
+# demo/gallery.py
+
+# Get center latitude/longitude of geospatial image
+def get_gdal_lonlat(dataset):
+
+# Get min/max latitude/longitude bounds of geospatial image
+def get_gdal_extent(dataset):
+
+# Calculate spatial resolution of tile at a specific level
+def compute_res(level):
+
+# Get geospatial information of the image
+IMG_path ='/RSLoc-82K/RSimages/test400/a1_L15_arcgis.tiff'
+ds = gdal.Open(IMG_path)
+width, height = ds.RasterXSize, ds.RasterYSize
+lon, lat = get_gdal_lonlat(ds)
+lon_min, lat_min, lon_max, lat_max = get_gdal_extent(ds)
+```
