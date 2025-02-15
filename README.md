@@ -1,11 +1,20 @@
 # RSLoc-82K: A Large-Scale Benchmark for Remote Sensing Image Geo-Localization
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-**RSLoc-82K** 是首个面向大规模遥感图像地理定位任务的开源基准数据集，旨在推动复杂场景下的高精度地理空间感知研究。本数据集包含 **82,000+** 高分辨率遥感影像，覆盖 **100万平方公里** 的多样化地形，支持跨时相、跨分辨率及跨传感器场景下的算法评测。
+#### 这是论文 “Large-Scale Geo-Localization of Remote Sensing Images: A Three-Stage Framework Leveraging Maximal Clique Theory” 的官方数据集。
+
+#### 测绘遥感信息工程全国重点实验室（武汉大学）
+
+---
+
+## 💬 简介
+
+**RSLoc-82K** 是首个面向大规模遥感图像地理定位任务的开源基准数据集，旨在推动复杂场景下的高精度地理空间感知研究。
+
+本数据集包含 **82,000+** 高分辨率遥感影像，覆盖 **100万平方公里** 的多样化地形，支持基于地理空间建模定位算法的评测。
 
 🔗 **数据访问** | 📄 [论文链接（待发布）]() | 💻 [代码仓库（待发布）]()
 
----
+
 
 ## 🌍 数据集亮点
 ### 📊 关键特性
