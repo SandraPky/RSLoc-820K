@@ -36,6 +36,7 @@
 - **真实场景挑战**  
   待定位图像400张，模拟跨时相（季节变化）、跨源（多卫星源）、跨尺度（多层级与分辨率）及等实际定位难题。
 
+  ![dataset Example Image(15 zoom level)](paper/test_imgs.png)
 
 
 - **结构化标注**  
