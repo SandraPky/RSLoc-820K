@@ -1,4 +1,4 @@
-# RSLoc-82K: A Large-Scale Benchmark for Remote Sensing Image Geo-Localization
+# RSLoc-820K: A Large-Scale Benchmark for Remote Sensing Image Geo-Localization
 
 #### Official dataset for the paper "Large-Scale Geo-Localization of Remote Sensing Images: A Three-Stage Framework Leveraging Maximal Clique Theory."
 #### National Key Laboratory of Surveying, Mapping and Remote Sensing (Wuhan University)
@@ -7,9 +7,9 @@
 
 ## 💬 Introduction
 
-**RSLoc-82K** is the first open-source benchmark dataset for large-scale remote sensing image geo-localization tasks, designed to promote high-precision geospatial perception research in complex scenarios.
+**RSLoc-820K** is the first open-source benchmark dataset for large-scale remote sensing image geo-localization tasks, designed to promote high-precision geospatial perception research in complex scenarios.
 
-The dataset contains **82,000+** high-resolution remote sensing images covering **1 million square kilometers** of diverse terrain, supporting the evaluation of geospatial modeling-based localization algorithms.
+The dataset contains **820,000+** high-resolution remote sensing images covering **1 million square kilometers** of diverse terrain, supporting the evaluation of geospatial modeling-based localization algorithms.
 
 🔗 **Data Access** | 📄 [Paper Link (To Be Published)]() | 📦 [Dataset](https://github.com/SandraPky/RSLoc-82K) | 💻 [Code Repository](https://github.com/SandraPky/RSLoc-82K)
 
@@ -64,7 +64,7 @@ Example images from the RSLoc-82K dataset: query image/reference image pair (par
 
 ## 🗂️ Dataset Download and Structure
 
-RSLoc-82K/  \
+RSLoc-820K/  \
 ├── RSimages/ # Query set (500 images)  \
 │   ├── [test100](https://drive.google.com/file/d/1UrY4ZTH1hpUsdQuwDZTyp90--GgiX2FS/view?usp=drive_link) /  # 用于参数测试  \
 │   │    └── XXX.tiff  \
