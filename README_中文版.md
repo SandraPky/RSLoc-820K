@@ -1,4 +1,4 @@
-# RSLoc-82K: A Large-Scale Benchmark for Remote Sensing Image Geo-Localization
+# RSLoc-820K: A Large-Scale Benchmark for Remote Sensing Image Geo-Localization
 
 #### 这是论文 “Large-Scale Geo-Localization of Remote Sensing Images: A Three-Stage Framework Leveraging Maximal Clique Theory” 的官方数据集。
 
@@ -8,9 +8,9 @@
 
 ## 💬 简介
 
-**RSLoc-82K** 是首个面向大规模遥感图像地理定位任务的开源基准数据集，旨在推动复杂场景下的高精度地理空间感知研究。
+**RSLoc-820K** 是首个面向大规模遥感图像地理定位任务的开源基准数据集，旨在推动复杂场景下的高精度地理空间感知研究。
 
-本数据集包含 **82,000+** 高分辨率遥感影像，覆盖 **100万平方公里** 的多样化地形，支持基于地理空间建模定位算法的评测。
+本数据集包含 **820,000+** 高分辨率遥感影像，覆盖 **100万平方公里** 的多样化地形，支持基于地理空间建模定位算法的评测。
 
 🔗 **数据访问** | 📄 [论文链接（待发布）]() | 📦 [数据集](https://github.com/SandraPky/RSLoc-82K) | 💻 [代码仓库](https://github.com/SandraPky/RSLoc-82K)
 
@@ -18,7 +18,7 @@
 ## 🌍 数据集亮点
 
 ![dataset Example Image(15 zoom level)](paper/dataset.png)
-RSLoc-82K数据集 数据示例 待定位图像/对应参考图像（部分）
+RSLoc-820K数据集 数据示例 待定位图像/对应参考图像（部分）
   
 ### 🚀 设计目标
 - 填补现有数据集（如University-1652、SUES-200）在规模与场景覆盖上的不足。
@@ -66,7 +66,7 @@ RSLoc-82K数据集 数据示例 待定位图像/对应参考图像（部分）
 
 ## 🗂️ 数据集下载与结构
 
-RSLoc-82K/  \
+RSLoc-820K/  \
 ├── RSimages/ # 测试集（500张）  \
 │   ├── [test100](https://drive.google.com/file/d/1UrY4ZTH1hpUsdQuwDZTyp90--GgiX2FS/view?usp=drive_link) /  # 用于参数测试  \
 │   │    └── XXX.tiff  \
