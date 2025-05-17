@@ -1,0 +1,537 @@
+﻿/home/guowei/hiredis-master/sds.h(166,61): warning : conversion from ‘int’ to ‘unsigned char’ may change value [-Wconversion]
+/home/guowei/hiredis-master/sds.h(166,61): warning :                  unsigned char newlen = SDS_TYPE_5_LEN(flags)+(unsigned char)inc;
+/home/guowei/hiredis-master/sds.h(166,61): warning :                                                              ^
+/home/guowei/hiredis-master/sds.h(167,34): warning : conversion from ‘int’ to ‘unsigned char’ may change value [-Wconversion]
+/home/guowei/hiredis-master/sds.h(167,34): warning :                  *fp = SDS_TYPE_5 | (newlen << SDS_TYPE_BITS);
+/home/guowei/hiredis-master/sds.h(167,34): warning :                                   ^
+/home/guowei/hiredis-master/sds.h(171,31): warning : conversion from ‘int’ to ‘uint8_t’ {aka ‘unsigned char’} may change value [-Wconversion]
+/home/guowei/hiredis-master/sds.h(171,31): warning :              SDS_HDR(8,s)->len += (uint8_t)inc;
+/home/guowei/hiredis-master/sds.h(171,31): warning :                                ^
+/home/guowei/hiredis-master/sds.h(174,32): warning : conversion from ‘int’ to ‘uint16_t’ {aka ‘short unsigned int’} may change value [-Wconversion]
+/home/guowei/hiredis-master/sds.h(174,32): warning :              SDS_HDR(16,s)->len += (uint16_t)inc;
+/home/guowei/hiredis-master/sds.h(174,32): warning :                                 ^
+E:\pky\codeprojects\findclique\findclique\main.cpp(192,21): warning : conversion from ‘long int’ to ‘int’ may change value [-Wconversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(192,21): warning :      int size = ftell(fp);                   //获取文件大小
+E:\pky\codeprojects\findclique\findclique\main.cpp(192,21): warning :                 ~~~~~^~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(368,24): warning : conversion from ‘double’ to ‘float’ may change value [-Wfloat-conversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(369,24): warning : conversion from ‘double’ to ‘float’ may change value [-Wfloat-conversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(372,28): warning : conversion from ‘double’ to ‘float’ may change value [-Wfloat-conversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(374,31): warning : conversion from ‘double’ to ‘float’ may change value [-Wfloat-conversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(375,31): warning : conversion from ‘double’ to ‘float’ may change value [-Wfloat-conversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(388,21): warning : narrowing conversion of ‘atoi((& strs.std::vector<std::basic_string<char>, std::allocator<std::basic_string<char> > >::operator[](11))->std::basic_string<char>::c_str())’ from ‘int’ to ‘float’ inside { } [-Wnarrowing]
+E:\pky\codeprojects\findclique\findclique\main.cpp(388,21): warning :                  atoi(strs[11].c_str()),       // center_x
+E:\pky\codeprojects\findclique\findclique\main.cpp(388,21): warning :                  ~~~~^~~~~~~~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(388,21): warning : conversion from ‘int’ to ‘float’ may change value [-Wconversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(389,21): warning : narrowing conversion of ‘atoi((& strs.std::vector<std::basic_string<char>, std::allocator<std::basic_string<char> > >::operator[](12))->std::basic_string<char>::c_str())’ from ‘int’ to ‘float’ inside { } [-Wnarrowing]
+E:\pky\codeprojects\findclique\findclique\main.cpp(389,21): warning :                  atoi(strs[12].c_str()),       // center_y
+E:\pky\codeprojects\findclique\findclique\main.cpp(389,21): warning :                  ~~~~^~~~~~~~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(389,21): warning : conversion from ‘int’ to ‘float’ may change value [-Wconversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(494,13): warning : unused variable ‘lenth’ [-Wunused-variable]
+E:\pky\codeprojects\findclique\findclique\main.cpp(603,27): warning : conversion from ‘double’ to ‘int’ may change value [-Wfloat-conversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(603,27): warning :      tile_x = (x + w_half) / xTileWidth;
+E:\pky\codeprojects\findclique\findclique\main.cpp(603,27): warning :               ~~~~~~~~~~~~~^~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(604,27): warning : conversion from ‘double’ to ‘int’ may change value [-Wfloat-conversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(604,27): warning :      tile_y = (h_half - y) / yTileHeight;
+E:\pky\codeprojects\findclique\findclique\main.cpp(604,27): warning :               ~~~~~~~~~~~~~^~~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(644,23): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<T_Point2D>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(644,23): warning :      for (int i = 2; i < point.size(); i++){
+E:\pky\codeprojects\findclique\findclique\main.cpp(644,23): warning :                      ~~^~~~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(680,23): warning : conversion from ‘long unsigned int’ to ‘double’ may change value [-Wconversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(680,23): warning :          cogX = sumX / numPoints;
+E:\pky\codeprojects\findclique\findclique\main.cpp(680,23): warning :                        ^~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(681,23): warning : conversion from ‘long unsigned int’ to ‘double’ may change value [-Wconversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(681,23): warning :          cogY = sumY / numPoints;
+E:\pky\codeprojects\findclique\findclique\main.cpp(681,23): warning :                        ^~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(706,27): warning : conversion from ‘long unsigned int’ to ‘double’ may change value [-Wconversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(706,27): warning :          cogX = sumX_avg / numPoints;
+E:\pky\codeprojects\findclique\findclique\main.cpp(706,27): warning :                            ^~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(707,27): warning : conversion from ‘long unsigned int’ to ‘double’ may change value [-Wconversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(707,27): warning :          cogY = sumY_avg / numPoints;
+E:\pky\codeprojects\findclique\findclique\main.cpp(707,27): warning :                            ^~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(723,23): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(723,23): warning :      for (int i = 0; i < clique.size(); i++) {
+E:\pky\codeprojects\findclique\findclique\main.cpp(723,23): warning :                      ~~^~~~~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(726,27): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(726,27): warning :          for (int j = 0; j < clique.size(); j++) {
+E:\pky\codeprojects\findclique\findclique\main.cpp(726,27): warning :                          ~~^~~~~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(744,24): warning : conversion from ‘double’ to ‘float’ may change value [-Wfloat-conversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(744,24): warning :      feature_pt.score = min_d;
+E:\pky\codeprojects\findclique\findclique\main.cpp(744,24): warning :                         ^~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(751,23): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::vector<int> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(751,23): warning :      for (int i = 0; i < cliques.size(); i++) {
+E:\pky\codeprojects\findclique\findclique\main.cpp(751,23): warning :                      ~~^~~~~~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(763,23): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(763,23): warning :      for (int i = 0; i < cliques.size(); i++) {
+E:\pky\codeprojects\findclique\findclique\main.cpp(763,23): warning :                      ~~^~~~~~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(782,23): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(782,23): warning :      for (int i = 0; i < cliques.size(); i++) {
+E:\pky\codeprojects\findclique\findclique\main.cpp(782,23): warning :                      ~~^~~~~~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(856,13): warning : unused variable ‘p1’ [-Wunused-variable]
+E:\pky\codeprojects\findclique\findclique\main.cpp(856,13): warning :          pt& p1 = pts[i];
+E:\pky\codeprojects\findclique\findclique\main.cpp(856,13): warning :              ^~
+E:\pky\codeprojects\findclique\findclique\main.cpp(901,23): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(901,23): warning :      for (int i = 0; i < cliques2.size(); i++) {
+E:\pky\codeprojects\findclique\findclique\main.cpp(901,23): warning :                      ~~^~~~~~~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(978,23): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::vector<int> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(978,23): warning :      for (int i = 0; i < cliques.size(); ++i) {
+E:\pky\codeprojects\findclique\findclique\main.cpp(978,23): warning :                      ~~^~~~~~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(980,27): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::vector<int> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(980,27): warning :          for (int j = 0; j < cliques.size(); ++j) {
+E:\pky\codeprojects\findclique\findclique\main.cpp(980,27): warning :                          ~~^~~~~~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(992,23): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::vector<int> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(992,23): warning :      for (int i = 0; i < cliques.size(); ++i) {
+E:\pky\codeprojects\findclique\findclique\main.cpp(992,23): warning :                      ~~^~~~~~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(1006,23): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1006,23): warning :      for (int i = 0; i < clique_ids.size(); i++) {
+E:\pky\codeprojects\findclique\findclique\main.cpp(1006,23): warning :                      ~~^~~~~~~~~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(1019,16): warning : structured bindings only available with -std=c++17 or -std=gnu++17
+E:\pky\codeprojects\findclique\findclique\main.cpp(1030,23): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::vector<int> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1030,23): warning :      for (int i = 0; i < cliques.size(); i++) {
+E:\pky\codeprojects\findclique\findclique\main.cpp(1030,23): warning :                      ~~^~~~~~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(1033,27): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1033,27): warning :          for (int j = 0; j < clique.size(); j++) {
+E:\pky\codeprojects\findclique\findclique\main.cpp(1033,27): warning :                          ~~^~~~~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(1037,27): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1037,27): warning :          for (int j = 0; j < clique.size(); j++) {
+E:\pky\codeprojects\findclique\findclique\main.cpp(1037,27): warning :                          ~~^~~~~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(1040,31): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1040,31): warning :              for (int n = 0; n < clique.size(); n++) {
+E:\pky\codeprojects\findclique\findclique\main.cpp(1040,31): warning :                              ~~^~~~~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(1051,27): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1051,27): warning :          for (int j = 0; j < clique.size(); j++) {
+E:\pky\codeprojects\findclique\findclique\main.cpp(1051,27): warning :                          ~~^~~~~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(1064,23): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::vector<int> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1064,23): warning :      for (int n = 0; n < cliques.size(); n++) {
+E:\pky\codeprojects\findclique\findclique\main.cpp(1064,23): warning :                      ~~^~~~~~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(1067,27): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1067,27): warning :          for (int i = 0; i < clique.size(); i++) {
+E:\pky\codeprojects\findclique\findclique\main.cpp(1067,27): warning :                          ~~^~~~~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(1070,31): warning : conversion from ‘double’ to ‘float’ may change value [-Wfloat-conversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1070,31): warning :                  float w = 1.0 + (p1.level - 14) * 1.0;
+E:\pky\codeprojects\findclique\findclique\main.cpp(1070,31): warning :                            ~~~~^~~~~~~~~~~~~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(1084,23): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1084,23): warning :      for (int i = 0; i < new_cliques_ids.size(); i++) {
+E:\pky\codeprojects\findclique\findclique\main.cpp(1084,23): warning :                      ~~^~~~~~~~~~~~~~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(1105,38): warning : conversion from ‘long int’ to ‘int’ may change value [-Wconversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1105,38): warning :      int size = igraph_vector_ptr_size(&result); //团数量
+E:\pky\codeprojects\findclique\findclique\main.cpp(1105,38): warning :                 ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(1112,27): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1112,27): warning :          for (int j = 0; j < clique.size(); j++) {
+E:\pky\codeprojects\findclique\findclique\main.cpp(1112,27): warning :                          ~~^~~~~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(1128,27): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::vector<int> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1128,27): warning :          for (int i = 0; i < cliques.size(); i++) {
+E:\pky\codeprojects\findclique\findclique\main.cpp(1128,27): warning :                          ~~^~~~~~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(1133,98): warning : conversion from ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} to ‘float’ may change value [-Wconversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1133,98): warning :              COSInfos[i] = { i, static_cast<int>(cliques[i].size()), total_score / cliques[i].size() };
+E:\pky\codeprojects\findclique\findclique\main.cpp(1133,98): warning :                                                                                    ~~~~~~~~~~~~~~~^~
+E:\pky\codeprojects\findclique\findclique\main.cpp(1151,48): warning : conversion from ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} to ‘float’ may change value [-Wconversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1151,48): warning :          float max_clique_size = cliques[0].size(); //最大节点数，已经排过序了
+E:\pky\codeprojects\findclique\findclique\main.cpp(1151,48): warning :                                  ~~~~~~~~~~~~~~~^~
+E:\pky\codeprojects\findclique\findclique\main.cpp(1157,36): warning : comparison of integer expressions of different signedness: ‘std::vector<std::vector<int> >::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1157,36): warning :              if (new_cliques.size() >= top_clique_n || clique.size() < clique_size_t)
+E:\pky\codeprojects\findclique\findclique\main.cpp(1157,36): warning :                  ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(1157,66): warning : conversion from ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} to ‘float’ may change value [-Wconversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1157,66): warning :              if (new_cliques.size() >= top_clique_n || clique.size() < clique_size_t)
+E:\pky\codeprojects\findclique\findclique\main.cpp(1157,66): warning :                                                        ~~~~~~~~~~~^~
+E:\pky\codeprojects\findclique\findclique\main.cpp(1175,23): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::vector<int> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1175,23): warning :      for (int i = 0; i < cliques.size(); i++) {
+E:\pky\codeprojects\findclique\findclique\main.cpp(1175,23): warning :                      ~~^~~~~~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(1195,48): warning : conversion from ‘double’ to ‘float’ may change value [-Wfloat-conversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1195,48): warning :              g.pts[pt_idx].cli_score = infos[i].score;
+E:\pky\codeprojects\findclique\findclique\main.cpp(1123,10): warning : variable ‘start2’ set but not used [-Wunused-but-set-variable]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1229,38): warning : conversion from ‘long int’ to ‘int’ may change value [-Wconversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1229,38): warning :      int size = igraph_vector_ptr_size(&result); //团数量
+E:\pky\codeprojects\findclique\findclique\main.cpp(1229,38): warning :                 ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(1236,27): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1236,27): warning :          for (int j = 0; j < clique.size(); j++) {
+E:\pky\codeprojects\findclique\findclique\main.cpp(1236,27): warning :                          ~~^~~~~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(1252,27): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::vector<int> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1252,27): warning :          for (int i = 0; i < cliques.size(); i++) {
+E:\pky\codeprojects\findclique\findclique\main.cpp(1252,27): warning :                          ~~^~~~~~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(1257,98): warning : conversion from ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} to ‘float’ may change value [-Wconversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1257,98): warning :              COSInfos[i] = { i, static_cast<int>(cliques[i].size()), total_score / cliques[i].size() };
+E:\pky\codeprojects\findclique\findclique\main.cpp(1257,98): warning :                                                                                    ~~~~~~~~~~~~~~~^~
+E:\pky\codeprojects\findclique\findclique\main.cpp(1275,48): warning : conversion from ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} to ‘float’ may change value [-Wconversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1275,48): warning :          float max_clique_size = cliques[0].size(); //最大节点数，已经排过序了
+E:\pky\codeprojects\findclique\findclique\main.cpp(1275,48): warning :                                  ~~~~~~~~~~~~~~~^~
+E:\pky\codeprojects\findclique\findclique\main.cpp(1281,36): warning : comparison of integer expressions of different signedness: ‘std::vector<std::vector<int> >::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1281,36): warning :              if (new_cliques.size() >= top_clique_n || clique.size() < clique_size_t)
+E:\pky\codeprojects\findclique\findclique\main.cpp(1281,36): warning :                  ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(1281,66): warning : conversion from ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} to ‘float’ may change value [-Wconversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1281,66): warning :              if (new_cliques.size() >= top_clique_n || clique.size() < clique_size_t)
+E:\pky\codeprojects\findclique\findclique\main.cpp(1281,66): warning :                                                        ~~~~~~~~~~~^~
+E:\pky\codeprojects\findclique\findclique\main.cpp(1299,23): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::vector<int> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1299,23): warning :      for (int i = 0; i < cliques.size(); i++) {
+E:\pky\codeprojects\findclique\findclique\main.cpp(1299,23): warning :                      ~~^~~~~~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(1318,48): warning : conversion from ‘double’ to ‘float’ may change value [-Wfloat-conversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1318,48): warning :              g.pts[pt_idx].cli_score = infos[i].score;
+E:\pky\codeprojects\findclique\findclique\main.cpp(1247,10): warning : variable ‘start2’ set but not used [-Wunused-but-set-variable]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1344,40): warning : conversion from ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} to ‘double’ may change value [-Wconversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1344,40): warning :      GeoPoint center(sum_x / clique.size(), sum_y / clique.size());
+E:\pky\codeprojects\findclique\findclique\main.cpp(1344,40): warning :                              ~~~~~~~~~~~^~
+E:\pky\codeprojects\findclique\findclique\main.cpp(1344,63): warning : conversion from ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} to ‘double’ may change value [-Wconversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1344,63): warning :      GeoPoint center(sum_x / clique.size(), sum_y / clique.size());
+E:\pky\codeprojects\findclique\findclique\main.cpp(1344,63): warning :                                                     ~~~~~~~~~~~^~
+E:\pky\codeprojects\findclique\findclique\main.cpp(1353,47): warning : conversion from ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} to ‘double’ may change value [-Wconversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1353,47): warning :      return 1.0 / (total_distance / clique.size() + 1e-6); // 距离越小得分越高
+E:\pky\codeprojects\findclique\findclique\main.cpp(1353,47): warning :                                     ~~~~~~~~~~~^~
+E:\pky\codeprojects\findclique\findclique\main.cpp(1369,27): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1369,27): warning :          for (int j = 0; j < clique.size(); j++) {
+E:\pky\codeprojects\findclique\findclique\main.cpp(1369,27): warning :                          ~~^~~~~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(1382,43): warning : conversion from ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} to ‘double’ may change value [-Wconversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1382,43): warning :              double csize = cliques[i].size();
+E:\pky\codeprojects\findclique\findclique\main.cpp(1382,43): warning :                             ~~~~~~~~~~~~~~~^~
+E:\pky\codeprojects\findclique\findclique\main.cpp(1385,47): warning : conversion from ‘double’ to ‘float’ may change value [-Wfloat-conversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1385,47): warning :          float clique_size_t = max_clique_size * topclique;
+E:\pky\codeprojects\findclique\findclique\main.cpp(1385,47): warning :                                ~~~~~~~~~~~~~~~~^~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(1388,28): warning : conversion from ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} to ‘float’ may change value [-Wconversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1388,28): warning :              if (clique.size() < clique_size_t) {
+E:\pky\codeprojects\findclique\findclique\main.cpp(1388,28): warning :                  ~~~~~~~~~~~^~
+E:\pky\codeprojects\findclique\findclique\main.cpp(1425,32): warning : conversion from ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} to ‘double’ may change value [-Wconversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1425,32): warning :          sim_val /= clique.size();
+E:\pky\codeprojects\findclique\findclique\main.cpp(1425,32): warning :                                 ^
+E:\pky\codeprojects\findclique\findclique\main.cpp(1430,18): warning : conversion from ‘size_t’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1430,18): warning :          cs.idx = i;
+E:\pky\codeprojects\findclique\findclique\main.cpp(1430,18): warning :                   ^
+E:\pky\codeprojects\findclique\findclique\main.cpp(1472,22): warning : conversion from ‘size_t’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1472,22): warning :          new_cs.idx = i;
+E:\pky\codeprojects\findclique\findclique\main.cpp(1472,22): warning :                       ^
+E:\pky\codeprojects\findclique\findclique\main.cpp(1495,27): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1495,27): warning :          for (int j = 0; j < clique.size(); j++) {
+E:\pky\codeprojects\findclique\findclique\main.cpp(1495,27): warning :                          ~~^~~~~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(1513,27): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::vector<int> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1513,27): warning :          for (int i = 0; i < cliques.size(); i++) {
+E:\pky\codeprojects\findclique\findclique\main.cpp(1513,27): warning :                          ~~^~~~~~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(1518,98): warning : conversion from ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} to ‘float’ may change value [-Wconversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1518,98): warning :              COSInfos[i] = { i, static_cast<int>(cliques[i].size()), total_score / cliques[i].size() };
+E:\pky\codeprojects\findclique\findclique\main.cpp(1518,98): warning :                                                                                    ~~~~~~~~~~~~~~~^~
+E:\pky\codeprojects\findclique\findclique\main.cpp(1530,48): warning : conversion from ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} to ‘float’ may change value [-Wconversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1530,48): warning :          float max_clique_size = cliques[0].size(); //最大节点数，已经排过序了
+E:\pky\codeprojects\findclique\findclique\main.cpp(1530,48): warning :                                  ~~~~~~~~~~~~~~~^~
+E:\pky\codeprojects\findclique\findclique\main.cpp(1536,36): warning : comparison of integer expressions of different signedness: ‘std::vector<std::vector<int> >::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1536,36): warning :              if (new_cliques.size() >= top_clique_n || clique.size() < clique_size_t)
+E:\pky\codeprojects\findclique\findclique\main.cpp(1536,36): warning :                  ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(1536,66): warning : conversion from ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} to ‘float’ may change value [-Wconversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1536,66): warning :              if (new_cliques.size() >= top_clique_n || clique.size() < clique_size_t)
+E:\pky\codeprojects\findclique\findclique\main.cpp(1536,66): warning :                                                        ~~~~~~~~~~~^~
+E:\pky\codeprojects\findclique\findclique\main.cpp(1582,32): warning : conversion from ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} to ‘double’ may change value [-Wconversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1582,32): warning :          sim_val /= clique.size();
+E:\pky\codeprojects\findclique\findclique\main.cpp(1582,32): warning :                                 ^
+E:\pky\codeprojects\findclique\findclique\main.cpp(1587,18): warning : conversion from ‘size_t’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1587,18): warning :          cs.idx = i;
+E:\pky\codeprojects\findclique\findclique\main.cpp(1587,18): warning :                   ^
+E:\pky\codeprojects\findclique\findclique\main.cpp(1627,22): warning : conversion from ‘size_t’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1627,22): warning :          new_cs.idx = i;
+E:\pky\codeprojects\findclique\findclique\main.cpp(1627,22): warning :                       ^
+E:\pky\codeprojects\findclique\findclique\main.cpp(1653,27): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1653,27): warning :          for (int j = 0; j < clique.size(); j++) {
+E:\pky\codeprojects\findclique\findclique\main.cpp(1653,27): warning :                          ~~^~~~~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(1671,27): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::vector<int> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1671,27): warning :          for (int i = 0; i < cliques.size(); i++) {
+E:\pky\codeprojects\findclique\findclique\main.cpp(1671,27): warning :                          ~~^~~~~~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(1676,98): warning : conversion from ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} to ‘float’ may change value [-Wconversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1676,98): warning :              COSInfos[i] = { i, static_cast<int>(cliques[i].size()), total_score / cliques[i].size() };
+E:\pky\codeprojects\findclique\findclique\main.cpp(1676,98): warning :                                                                                    ~~~~~~~~~~~~~~~^~
+E:\pky\codeprojects\findclique\findclique\main.cpp(1688,48): warning : conversion from ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} to ‘float’ may change value [-Wconversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1688,48): warning :          float max_clique_size = cliques[0].size(); //最大节点数，已经排过序了
+E:\pky\codeprojects\findclique\findclique\main.cpp(1688,48): warning :                                  ~~~~~~~~~~~~~~~^~
+E:\pky\codeprojects\findclique\findclique\main.cpp(1694,36): warning : comparison of integer expressions of different signedness: ‘std::vector<std::vector<int> >::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1694,36): warning :              if (new_cliques.size() >= top_clique_n || clique.size() < clique_size_t)
+E:\pky\codeprojects\findclique\findclique\main.cpp(1694,36): warning :                  ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(1694,66): warning : conversion from ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} to ‘float’ may change value [-Wconversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1694,66): warning :              if (new_cliques.size() >= top_clique_n || clique.size() < clique_size_t)
+E:\pky\codeprojects\findclique\findclique\main.cpp(1694,66): warning :                                                        ~~~~~~~~~~~^~
+E:\pky\codeprojects\findclique\findclique\main.cpp(1740,32): warning : conversion from ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} to ‘double’ may change value [-Wconversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1740,32): warning :          sim_val /= clique.size();
+E:\pky\codeprojects\findclique\findclique\main.cpp(1740,32): warning :                                 ^
+E:\pky\codeprojects\findclique\findclique\main.cpp(1745,18): warning : conversion from ‘size_t’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1745,18): warning :          cs.idx = i;
+E:\pky\codeprojects\findclique\findclique\main.cpp(1745,18): warning :                   ^
+E:\pky\codeprojects\findclique\findclique\main.cpp(1785,22): warning : conversion from ‘size_t’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1785,22): warning :          new_cs.idx = i;
+E:\pky\codeprojects\findclique\findclique\main.cpp(1785,22): warning :                       ^
+E:\pky\codeprojects\findclique\findclique\main.cpp(1810,23): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::pair<int, int> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1810,23): warning :      for (int i = 0; i < edges.size(); i++) {
+E:\pky\codeprojects\findclique\findclique\main.cpp(1810,23): warning :                      ~~^~~~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(1808,9): warning : unused variable ‘fieldIdx’ [-Wunused-variable]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1808,9): warning :      int fieldIdx = DBFAddField(dbf_h, "Shape", FTString, 250, 0);
+E:\pky\codeprojects\findclique\findclique\main.cpp(1808,9): warning :          ^~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(1846,23): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<pt>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1846,23): warning :      for (int i = 0; i < pts.size(); i++) {
+E:\pky\codeprojects\findclique\findclique\main.cpp(1846,23): warning :                      ~~^~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(1844,9): warning : unused variable ‘fieldIdx’ [-Wunused-variable]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1844,9): warning :      int fieldIdx = DBFAddField(dbf_h, "Score", FTDouble, 32, 0);
+E:\pky\codeprojects\findclique\findclique\main.cpp(1844,9): warning :          ^~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(1897,27): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1897,27): warning :          for (int j = 0; j < clique.size(); j++) {
+E:\pky\codeprojects\findclique\findclique\main.cpp(1897,27): warning :                          ~~^~~~~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(1904,99): warning : conversion from ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1904,99): warning :          SHPObject* psShape = SHPCreateObject(SHPT_POLYGON, -1, 0, nullptr, nullptr, clique.size() + 1, xCoords.data(), yCoords.data(), nullptr, nullptr);
+E:\pky\codeprojects\findclique\findclique\main.cpp(1904,99): warning :                                                                                      ~~~~~~~~~~~~~~^~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(1885,39): warning : unused variable ‘edges’ [-Wunused-variable]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1888,9): warning : unused variable ‘nShpTpyeSave’ [-Wunused-variable]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1888,9): warning :      int nShpTpyeSave = SHPT_POLYGON;
+E:\pky\codeprojects\findclique\findclique\main.cpp(1888,9): warning :          ^~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(1970,68): warning : conversion from ‘std::vector<double>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1970,68): warning :          SHPObject* obj = SHPCreateSimpleObject(SHPT_POLYGON, x.size(),
+E:\pky\codeprojects\findclique\findclique\main.cpp(1970,68): warning :                                                               ~~~~~~^~
+E:\pky\codeprojects\findclique\findclique\main.cpp(1990,70): warning : conversion from ‘std::unordered_set<std::basic_string<char> >::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(1990,70): warning :          DBFWriteIntegerAttribute(dbf, shape_id, 5, unique_images.size());
+E:\pky\codeprojects\findclique\findclique\main.cpp(1990,70): warning :                                                     ~~~~~~~~~~~~~~~~~~^~
+E:\pky\codeprojects\findclique\findclique\main.cpp(2081,16): warning : unused variable ‘size_val’ [-Wunused-variable]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2081,16): warning :          double size_val = 0.0, sim_val = 0.0, geo_val = 0.0, size_score = 0.0, sim_score = 0.0, geo_score = 0.0, total_score = 0.0;
+E:\pky\codeprojects\findclique\findclique\main.cpp(2081,16): warning :                 ^~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(2081,32): warning : unused variable ‘sim_val’ [-Wunused-variable]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2081,32): warning :          double size_val = 0.0, sim_val = 0.0, geo_val = 0.0, size_score = 0.0, sim_score = 0.0, geo_score = 0.0, total_score = 0.0;
+E:\pky\codeprojects\findclique\findclique\main.cpp(2081,32): warning :                                 ^~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(2081,47): warning : unused variable ‘geo_val’ [-Wunused-variable]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2081,47): warning :          double size_val = 0.0, sim_val = 0.0, geo_val = 0.0, size_score = 0.0, sim_score = 0.0, geo_score = 0.0, total_score = 0.0;
+E:\pky\codeprojects\findclique\findclique\main.cpp(2081,47): warning :                                                ^~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(2081,62): warning : unused variable ‘size_score’ [-Wunused-variable]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2081,62): warning :          double size_val = 0.0, sim_val = 0.0, geo_val = 0.0, size_score = 0.0, sim_score = 0.0, geo_score = 0.0, total_score = 0.0;
+E:\pky\codeprojects\findclique\findclique\main.cpp(2081,62): warning :                                                               ^~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(2081,80): warning : unused variable ‘sim_score’ [-Wunused-variable]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2081,80): warning :          double size_val = 0.0, sim_val = 0.0, geo_val = 0.0, size_score = 0.0, sim_score = 0.0, geo_score = 0.0, total_score = 0.0;
+E:\pky\codeprojects\findclique\findclique\main.cpp(2081,80): warning :                                                                                 ^~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(2081,97): warning : unused variable ‘geo_score’ [-Wunused-variable]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2081,97): warning :          double size_val = 0.0, sim_val = 0.0, geo_val = 0.0, size_score = 0.0, sim_score = 0.0, geo_score = 0.0, total_score = 0.0;
+E:\pky\codeprojects\findclique\findclique\main.cpp(2081,97): warning :                                                                                                  ^~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(2081,114): warning : unused variable ‘total_score’ [-Wunused-variable]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2081,114): warning :          double size_val = 0.0, sim_val = 0.0, geo_val = 0.0, size_score = 0.0, sim_score = 0.0, geo_score = 0.0, total_score = 0.0;
+E:\pky\codeprojects\findclique\findclique\main.cpp(2081,114): warning :                                                                                                                   ^~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(2192,51): warning : conversion from ‘long int’ to ‘igraph_integer_t’ {aka ‘int’} may change value [-Wconversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2192,51): warning :      igraph_integer_t size = igraph_vector_ptr_size(&result); //找到的团的数量
+E:\pky\codeprojects\findclique\findclique\main.cpp(2192,51): warning :                              ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(2200,35): warning : conversion from ‘long int’ to ‘int’ may change value [-Wconversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2200,35): warning :          int n = igraph_vector_size(p); //p团中节点数量
+E:\pky\codeprojects\findclique\findclique\main.cpp(2200,35): warning :                  ~~~~~~~~~~~~~~~~~~^~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(2222,23): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::vector<int> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2222,23): warning :      for (int i = 0; i < cliques.size(); i++) {
+E:\pky\codeprojects\findclique\findclique\main.cpp(2222,23): warning :                      ~~^~~~~~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(2225,31): warning : conversion from ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2225,31): warning :          int size = clique.size();
+E:\pky\codeprojects\findclique\findclique\main.cpp(2225,31): warning :                     ~~~~~~~~~~~^~
+E:\pky\codeprojects\findclique\findclique\main.cpp(2232,45): warning : conversion from ‘int’ to ‘float’ may change value [-Wconversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2250,23): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::vector<int> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2250,23): warning :      for (int i = 0; i < cliques.size(); i++) {
+E:\pky\codeprojects\findclique\findclique\main.cpp(2250,23): warning :                      ~~^~~~~~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(2255,38): warning : conversion from ‘std::vector<std::vector<int> >::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2255,38): warning :          int clique_num = cliques.size();
+E:\pky\codeprojects\findclique\findclique\main.cpp(2255,38): warning :                           ~~~~~~~~~~~~^~
+E:\pky\codeprojects\findclique\findclique\main.cpp(2256,48): warning : conversion from ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} to ‘float’ may change value [-Wconversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2256,48): warning :          float max_clique_size = cliques[0].size(); //最大节点数，已经排过序了
+E:\pky\codeprojects\findclique\findclique\main.cpp(2256,48): warning :                                  ~~~~~~~~~~~~~~~^~
+E:\pky\codeprojects\findclique\findclique\main.cpp(2261,27): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<double>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2261,27): warning :          for (int i = 0; i < thresholds.size(); i++){
+E:\pky\codeprojects\findclique\findclique\main.cpp(2261,27): warning :                          ~~^~~~~~~~~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(2263,37): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<double>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2263,20): warning : unused variable ‘upper_limit’ [-Wunused-variable]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2309,48): warning : conversion from ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} to ‘float’ may change value [-Wconversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2309,48): warning :          float max_clique_size = cliques[0].size(); //最大节点数，已经排过序了
+E:\pky\codeprojects\findclique\findclique\main.cpp(2309,48): warning :                                  ~~~~~~~~~~~~~~~^~
+E:\pky\codeprojects\findclique\findclique\main.cpp(2318,31): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::vector<int> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2318,31): warning :              for (int i = 0; i < cliques.size(); i++) {
+E:\pky\codeprojects\findclique\findclique\main.cpp(2318,31): warning :                              ~~^~~~~~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(2309,15): warning : unused variable ‘max_clique_size’ [-Wunused-variable]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2309,15): warning :          float max_clique_size = cliques[0].size(); //最大节点数，已经排过序了
+E:\pky\codeprojects\findclique\findclique\main.cpp(2309,15): warning :                ^~~~~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(2364,51): warning : conversion from ‘long int’ to ‘igraph_integer_t’ {aka ‘int’} may change value [-Wconversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2364,51): warning :      igraph_integer_t size = igraph_vector_ptr_size(&result); //找到的团的数量
+E:\pky\codeprojects\findclique\findclique\main.cpp(2364,51): warning :                              ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(2368,35): warning : conversion from ‘long int’ to ‘int’ may change value [-Wconversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2368,35): warning :          int n = igraph_vector_size(p); //p团中节点数量
+E:\pky\codeprojects\findclique\findclique\main.cpp(2368,35): warning :                  ~~~~~~~~~~~~~~~~~~^~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(2386,27): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::vector<int> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2386,27): warning :          for (int i = 0; i < cliques.size(); i++) {
+E:\pky\codeprojects\findclique\findclique\main.cpp(2386,27): warning :                          ~~^~~~~~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(2389,35): warning : conversion from ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2389,35): warning :              int size = clique.size();
+E:\pky\codeprojects\findclique\findclique\main.cpp(2389,35): warning :                         ~~~~~~~~~~~^~
+E:\pky\codeprojects\findclique\findclique\main.cpp(2398,52): warning : conversion from ‘int’ to ‘float’ may change value [-Wconversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2418,44): warning : conversion from ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2418,44): warning :          original_node_count += clique.size(); //原始 总点数
+E:\pky\codeprojects\findclique\findclique\main.cpp(2418,44): warning :                                             ^
+E:\pky\codeprojects\findclique\findclique\main.cpp(2435,52): warning : conversion from ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} to ‘float’ may change value [-Wconversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2435,52): warning :              float max_clique_size = cliques[0].size(); //最大节点数，已经排过序了
+E:\pky\codeprojects\findclique\findclique\main.cpp(2435,52): warning :                                      ~~~~~~~~~~~~~~~^~
+E:\pky\codeprojects\findclique\findclique\main.cpp(2436,51): warning : conversion from ‘double’ to ‘float’ may change value [-Wfloat-conversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2436,51): warning :              float clique_size_t = max_clique_size * w;  //去掉较小节点的团
+E:\pky\codeprojects\findclique\findclique\main.cpp(2436,51): warning :                                    ~~~~~~~~~~~~~~~~^~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(2438,31): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::vector<int> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2438,31): warning :              for (int i = 0; i < cliques.size(); i++) {
+E:\pky\codeprojects\findclique\findclique\main.cpp(2438,31): warning :                              ~~^~~~~~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(2439,40): warning : comparison of integer expressions of different signedness: ‘std::vector<std::vector<int> >::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2439,40): warning :                  if (new_cliques.size() > top_clique_n)
+E:\pky\codeprojects\findclique\findclique\main.cpp(2439,40): warning :                      ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(2441,36): warning : conversion from ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} to ‘float’ may change value [-Wconversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2441,36): warning :                  if (cliques[i].size() < clique_size_t)
+E:\pky\codeprojects\findclique\findclique\main.cpp(2441,36): warning :                      ~~~~~~~~~~~~~~~^~
+E:\pky\codeprojects\findclique\findclique\main.cpp(2456,31): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::vector<int> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2456,31): warning :              for (int i = 0; i < new_cliques.size(); i++) {
+E:\pky\codeprojects\findclique\findclique\main.cpp(2456,31): warning :                              ~~^~~~~~~~~~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(2461,35): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2461,35): warning :                  for (int j = 0; j < clique.size(); j++) {
+E:\pky\codeprojects\findclique\findclique\main.cpp(2461,35): warning :                                  ~~^~~~~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(2477,31): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<clique_info>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2477,31): warning :              for (int i = 0; i < infos.size(); i++) {
+E:\pky\codeprojects\findclique\findclique\main.cpp(2477,31): warning :                              ~~^~~~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(2482,44): warning : conversion from ‘double’ to ‘float’ may change value [-Wfloat-conversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2482,44): warning :                      p.cli_score = infos[i].score;
+E:\pky\codeprojects\findclique\findclique\main.cpp(2493,43): warning : conversion from ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2493,43): warning :                  node_count += clique.size();  //总点数
+E:\pky\codeprojects\findclique\findclique\main.cpp(2493,43): warning :                                            ^
+E:\pky\codeprojects\findclique\findclique\main.cpp(2543,28): warning : conversion from ‘double’ to ‘float’ changes value from ‘2.9999999999999999e-2’ to ‘2.99999993e-2f’ [-Wfloat-conversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2543,28): warning :      const float grid_w_x = 0.03; // 网格宽度（x方向） 0.01度 11.0km*6.6km 对应15层级查询范围
+E:\pky\codeprojects\findclique\findclique\main.cpp(2543,28): warning :                             ^~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(2544,28): warning : conversion from ‘double’ to ‘float’ changes value from ‘1.4999999999999999e-2’ to ‘1.49999997e-2f’ [-Wfloat-conversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2544,28): warning :      const float grid_w_y = 0.015; // 网格宽度（y方向） 0.005
+E:\pky\codeprojects\findclique\findclique\main.cpp(2544,28): warning :                             ^~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(2548,25): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<pt>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2548,25): warning :      for (int id = 0; id < pts.size(); id++) {
+E:\pky\codeprojects\findclique\findclique\main.cpp(2548,25): warning :                       ~~~^~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(2567,27): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<pt>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2567,27): warning :      for (int id1 = 0; id1 < pts.size(); id1++) {
+E:\pky\codeprojects\findclique\findclique\main.cpp(2567,27): warning :                        ~~~~^~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(2590,81): warning : conversion from ‘double’ to ‘float’ may change value [-Wfloat-conversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2590,81): warning :                  float tile_res = (compute_res(p.level) + compute_res(p2.level)) / 2.0;
+E:\pky\codeprojects\findclique\findclique\main.cpp(2590,81): warning :                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(2592,40): warning : conversion from ‘double’ to ‘float’ may change value [-Wfloat-conversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2587,18): warning : variable ‘is_ok’ set but not used [-Wunused-but-set-variable]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2587,18): warning :              bool is_ok = false;
+E:\pky\codeprojects\findclique\findclique\main.cpp(2587,18): warning :                   ^~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(2610,32): warning : comparison of integer expressions of different signedness: ‘std::vector<edge_info>::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2610,32): warning :          if (match_edges.size() > max_k) {
+E:\pky\codeprojects\findclique\findclique\main.cpp(2610,32): warning :              ~~~~~~~~~~~~~~~~~~~^~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(2641,22): warning : comparison of integer expressions of different signedness: ‘std::vector<std::pair<int, int> >::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2641,22): warning :      if (edges.size() >= max_edges) {
+E:\pky\codeprojects\findclique\findclique\main.cpp(2641,22): warning :          ~~~~~~~~~~~~~^~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(2697,23): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::pair<int, int> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2697,23): warning :      for (int i = 0; i < edges.size(); i++) {
+E:\pky\codeprojects\findclique\findclique\main.cpp(2697,23): warning :                      ~~^~~~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(2545,9): warning : unused variable ‘grid_n_x’ [-Wunused-variable]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2545,9): warning :      int grid_n_x = static_cast<int>(360 / grid_w_x); // 计算x方向上的网格数量
+E:\pky\codeprojects\findclique\findclique\main.cpp(2545,9): warning :          ^~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(2546,9): warning : unused variable ‘grid_n_y’ [-Wunused-variable]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2546,9): warning :      int grid_n_y = static_cast<int>(180 / grid_w_y); // 计算y方向上的网格数量
+E:\pky\codeprojects\findclique\findclique\main.cpp(2546,9): warning :          ^~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(2714,28): warning : conversion from ‘double’ to ‘float’ changes value from ‘6.9999999999999999e-4’ to ‘6.99999975e-4f’ [-Wfloat-conversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2714,28): warning :      const float grid_w_x = 0.0007; // 网格宽度（x方向 经度） 0.8km
+E:\pky\codeprojects\findclique\findclique\main.cpp(2714,28): warning :                             ^~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(2715,28): warning : conversion from ‘double’ to ‘float’ changes value from ‘6.9999999999999999e-4’ to ‘6.99999975e-4f’ [-Wfloat-conversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2715,28): warning :      const float grid_w_y = 0.0007; // 网格宽度（y方向 纬度）0.72km
+E:\pky\codeprojects\findclique\findclique\main.cpp(2715,28): warning :                             ^~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(2719,25): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<pt>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2719,25): warning :      for (int id = 0; id < pts.size(); id++) {
+E:\pky\codeprojects\findclique\findclique\main.cpp(2719,25): warning :                       ~~~^~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(2738,27): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<pt>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2738,27): warning :      for (int id1 = 0; id1 < pts.size(); id1++) {
+E:\pky\codeprojects\findclique\findclique\main.cpp(2738,27): warning :                        ~~~~^~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(2771,32): warning : comparison of integer expressions of different signedness: ‘std::vector<edge_info>::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2771,32): warning :          if (match_edges.size() > max_k) {
+E:\pky\codeprojects\findclique\findclique\main.cpp(2771,32): warning :              ~~~~~~~~~~~~~~~~~~~^~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(2799,22): warning : comparison of integer expressions of different signedness: ‘std::vector<std::pair<int, int> >::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2799,22): warning :      if (edges.size() >= max_edges) {
+E:\pky\codeprojects\findclique\findclique\main.cpp(2799,22): warning :          ~~~~~~~~~~~~~^~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(2855,23): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::pair<int, int> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2855,23): warning :      for (int i = 0; i < edges.size(); i++) {
+E:\pky\codeprojects\findclique\findclique\main.cpp(2855,23): warning :                      ~~^~~~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(2716,9): warning : unused variable ‘grid_n_x’ [-Wunused-variable]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2716,9): warning :      int grid_n_x = static_cast<int>(360 / grid_w_x); // 计算x方向上的网格数量
+E:\pky\codeprojects\findclique\findclique\main.cpp(2716,9): warning :          ^~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(2717,9): warning : unused variable ‘grid_n_y’ [-Wunused-variable]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2717,9): warning :      int grid_n_y = static_cast<int>(180 / grid_w_y); // 计算y方向上的网格数量
+E:\pky\codeprojects\findclique\findclique\main.cpp(2717,9): warning :          ^~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(2883,28): warning : conversion from ‘double’ to ‘float’ changes value from ‘1.0e-2’ to ‘9.99999978e-3f’ [-Wfloat-conversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2883,28): warning :      const float grid_w_x = 0.01; // 网格宽度（x方向） 0.01度 11.0km*6.6km 对应15层级查询范围
+E:\pky\codeprojects\findclique\findclique\main.cpp(2883,28): warning :                             ^~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(2884,28): warning : conversion from ‘double’ to ‘float’ changes value from ‘1.0e-2’ to ‘9.99999978e-3f’ [-Wfloat-conversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2884,28): warning :      const float grid_w_y = 0.01; // 网格宽度（y方向） 0.005
+E:\pky\codeprojects\findclique\findclique\main.cpp(2884,28): warning :                             ^~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(2888,25): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<pt>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2888,25): warning :      for (int id = 0; id < pts.size(); id++) {
+E:\pky\codeprojects\findclique\findclique\main.cpp(2888,25): warning :                       ~~~^~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(2906,27): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<pt>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2906,27): warning :      for (int id1 = 0; id1 < pts.size(); id1++) {
+E:\pky\codeprojects\findclique\findclique\main.cpp(2906,27): warning :                        ~~~~^~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(2925,18): warning : variable ‘is_ok’ set but not used [-Wunused-but-set-variable]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2925,18): warning :              bool is_ok = false;
+E:\pky\codeprojects\findclique\findclique\main.cpp(2925,18): warning :                   ^~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(2949,32): warning : comparison of integer expressions of different signedness: ‘std::vector<edge_info2>::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2949,32): warning :          if (match_edges.size() > max_k) {
+E:\pky\codeprojects\findclique\findclique\main.cpp(2949,32): warning :              ~~~~~~~~~~~~~~~~~~~^~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(2981,22): warning : comparison of integer expressions of different signedness: ‘std::vector<std::pair<int, int> >::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2981,22): warning :      if (edges.size() >= max_edges) {
+E:\pky\codeprojects\findclique\findclique\main.cpp(2981,22): warning :          ~~~~~~~~~~~~~^~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(3037,23): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::pair<int, int> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+E:\pky\codeprojects\findclique\findclique\main.cpp(3037,23): warning :      for (int i = 0; i < edges.size(); i++) {
+E:\pky\codeprojects\findclique\findclique\main.cpp(3037,23): warning :                      ~~^~~~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(3042,34): warning : conversion from ‘std::vector<pt>::size_type’ {aka ‘long unsigned int’} to ‘igraph_integer_t’ {aka ‘int’} may change value [-Wconversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(3042,34): warning :      igraph_integer_t n = pts.size();
+E:\pky\codeprojects\findclique\findclique\main.cpp(3042,34): warning :                           ~~~~~~~~^~
+E:\pky\codeprojects\findclique\findclique\main.cpp(2885,9): warning : unused variable ‘grid_n_x’ [-Wunused-variable]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2885,9): warning :      int grid_n_x = static_cast<int>(360 / grid_w_x); // 计算x方向上的网格数量
+E:\pky\codeprojects\findclique\findclique\main.cpp(2885,9): warning :          ^~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(2886,9): warning : unused variable ‘grid_n_y’ [-Wunused-variable]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2886,9): warning :      int grid_n_y = static_cast<int>(180 / grid_w_y); // 计算y方向上的网格数量
+E:\pky\codeprojects\findclique\findclique\main.cpp(2886,9): warning :          ^~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(3051,28): warning : conversion from ‘double’ to ‘float’ may change value [-Wfloat-conversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(3051,28): warning :      float res = compute_res(15);  //4.777; 查询图像的分辨率
+E:\pky\codeprojects\findclique\findclique\main.cpp(3051,28): warning :                  ~~~~~~~~~~~^~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(3085,42): warning : conversion from ‘double’ to ‘float’ changes value from ‘5.9999999999999998e-1’ to ‘6.00000024e-1f’ [-Wfloat-conversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(3085,42): warning :          find_clipque(g, max_cli, conbine,0.6);  // 找到团
+E:\pky\codeprojects\findclique\findclique\main.cpp(3085,42): warning :                                           ^~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(3094,36): warning : conversion from ‘std::chrono::duration<long int, std::ratio<1, 1000> >::rep’ {aka ‘long int’} to ‘int’ may change value [-Wconversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(3094,36): warning :          TIME_sum += duration.count();
+E:\pky\codeprojects\findclique\findclique\main.cpp(3094,36): warning :                                     ^
+E:\pky\codeprojects\findclique\findclique\main.cpp(3108,28): warning : conversion from ‘double’ to ‘float’ may change value [-Wfloat-conversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(3108,28): warning :      float res = compute_res(15);  //4.777; 查询图像的分辨率
+E:\pky\codeprojects\findclique\findclique\main.cpp(3108,28): warning :                  ~~~~~~~~~~~^~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(3150,17): warning : unused variable ‘max_cli’ [-Wunused-variable]
+E:\pky\codeprojects\findclique\findclique\main.cpp(3150,17): warning :              int max_cli = 1000;  //合并子团后1000
+E:\pky\codeprojects\findclique\findclique\main.cpp(3150,17): warning :                  ^~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(3151,17): warning : unused variable ‘conbine’ [-Wunused-variable]
+E:\pky\codeprojects\findclique\findclique\main.cpp(3151,17): warning :              int conbine = 1;  // 最大输出数量（去除子团后）
+E:\pky\codeprojects\findclique\findclique\main.cpp(3151,17): warning :                  ^~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(3109,17): warning : unused variable ‘imginfo_path’ [-Wunused-variable]
+E:\pky\codeprojects\findclique\findclique\main.cpp(3109,17): warning :      const char* imginfo_path = "/mnt/hgfs/OpenRS/arcgisL15_field100/arcgisL15_field100.csv"; //图像信息文件
+E:\pky\codeprojects\findclique\findclique\main.cpp(3109,17): warning :                  ^~~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(3348,43): warning : conversion from ‘double’ to ‘float’ changes value from ‘5.9999999999999998e-1’ to ‘6.00000024e-1f’ [-Wfloat-conversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(3348,43): warning :          find_clipque(g, max_cli, conbine, 0.6);  // 找到团,最小比例
+E:\pky\codeprojects\findclique\findclique\main.cpp(3348,43): warning :                                            ^~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(3354,36): warning : conversion from ‘std::chrono::duration<long int, std::ratio<1, 1000> >::rep’ {aka ‘long int’} to ‘int’ may change value [-Wconversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(3354,36): warning :          TIME_sum += duration.count();
+E:\pky\codeprojects\findclique\findclique\main.cpp(3354,36): warning :                                     ^
+E:\pky\codeprojects\findclique\findclique\main.cpp(3368,17): warning : conversion from ‘double’ to ‘float’ changes value from ‘1.4999999999999999e-1’ to ‘1.50000006e-1f’ [-Wfloat-conversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(3368,17): warning :      float res = 0.15;  // 查询图像的分辨率
+E:\pky\codeprojects\findclique\findclique\main.cpp(3368,17): warning :                  ^~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(3429,57): warning : conversion from ‘double’ to ‘float’ changes value from ‘5.9999999999999998e-1’ to ‘6.00000024e-1f’ [-Wfloat-conversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(3429,57): warning :          rank_and_filter_cliques_2(g2, max_cli, conbine, 0.6);  //用伪极大团排序
+E:\pky\codeprojects\findclique\findclique\main.cpp(3429,57): warning :                                                          ^~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(3438,36): warning : conversion from ‘std::chrono::duration<long int, std::ratio<1, 1000> >::rep’ {aka ‘long int’} to ‘int’ may change value [-Wconversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(3438,36): warning :          TIME_sum += duration.count();
+E:\pky\codeprojects\findclique\findclique\main.cpp(3438,36): warning :                                     ^
+E:\pky\codeprojects\findclique\findclique\main.cpp(3379,17): warning : unused variable ‘target_dir’ [-Wunused-variable]
+E:\pky\codeprojects\findclique\findclique\main.cpp(3379,17): warning :      const char* target_dir = target_path.c_str();
+E:\pky\codeprojects\findclique\findclique\main.cpp(3379,17): warning :                  ^~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(3380,17): warning : unused variable ‘Cscore_dir1’ [-Wunused-variable]
+E:\pky\codeprojects\findclique\findclique\main.cpp(3380,17): warning :      const char* Cscore_dir1 = Cscore_path1.c_str();
+E:\pky\codeprojects\findclique\findclique\main.cpp(3380,17): warning :                  ^~~~~~~~~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(3461,17): warning : conversion from ‘double’ to ‘float’ changes value from ‘1.4999999999999999e-1’ to ‘1.50000006e-1f’ [-Wfloat-conversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(3461,17): warning :      float res = 0.15;  // 查询图像的分辨率
+E:\pky\codeprojects\findclique\findclique\main.cpp(3461,17): warning :                  ^~~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(3516,69): warning : conversion from ‘double’ to ‘float’ changes value from ‘5.9999999999999998e-1’ to ‘6.00000024e-1f’ [-Wfloat-conversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(3516,69): warning :                  rank_and_filter_cliques_2_exp(g2, max_cli, conbine, 0.6);  //用伪极大团排序
+E:\pky\codeprojects\findclique\findclique\main.cpp(3516,69): warning :                                                                      ^~~
+E:\pky\codeprojects\findclique\findclique\main.cpp(3529,98): warning : conversion from ‘std::vector<std::vector<int> >::size_type’ {aka ‘long unsigned int’} to ‘double’ may change value [-Wconversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(3548,75): warning : conversion from ‘std::vector<Drone_cliquesinfo>::size_type’ {aka ‘long unsigned int’} to ‘double’ may change value [-Wconversion]
+E:\pky\codeprojects\findclique\findclique\main.cpp(3548,75): warning :                                  return sum + (info.*field);}) / infos.size();};
+E:\pky\codeprojects\findclique\findclique\main.cpp(3548,75): warning :                                                                  ~~~~~~~~~~^~
+E:\pky\codeprojects\findclique\findclique\main.cpp(2358,1): warning : control reaches end of non-void function [-Wreturn-type]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2358,1): warning :  }
+E:\pky\codeprojects\findclique\findclique\main.cpp(2358,1): warning :  ^
+E:\pky\codeprojects\findclique\findclique\main.cpp(2706,1): warning : control reaches end of non-void function [-Wreturn-type]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2706,1): warning :  }
+E:\pky\codeprojects\findclique\findclique\main.cpp(2706,1): warning :  ^
+E:\pky\codeprojects\findclique\findclique\main.cpp(2864,1): warning : control reaches end of non-void function [-Wreturn-type]
+E:\pky\codeprojects\findclique\findclique\main.cpp(2864,1): warning :  }
+E:\pky\codeprojects\findclique\findclique\main.cpp(2864,1): warning :  ^
