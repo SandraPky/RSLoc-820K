@@ -71,8 +71,8 @@ Download the dataset and place it in the correct folder as specified in the data
 # Python script: ./project_code/step_1_3_python/testgeosearch_gpu.py
 
 # Set STAGE = 1
-# Outputs saved in ./output/eval_L15
-# Then copy "hits_*.csv" to ./output/hits
+# Outputs saved in [./output/eval_L15]
+# Then copy all "hits_*.csv" files to [./output/hits]
 
 ```
 + Step 2: Spatio-Geographic Constrained Maximal Clique Optimization
@@ -82,13 +82,15 @@ Download the dataset and place it in the correct folder as specified in the data
 
 const char* csv_dir = "./output/hits";
 const char* target_dir = "./output/cli";
-# Then copy output to ./output/eval_L15
+
+# Then copy all "clique_*.csv" files to [./output/eval_L15]
 ```
 
 + Step 3: . MAC-Guided Geometric Consistency for Fine Localization
 ```bash
 # Python script: ./project_code/step_1_3_python/testgeosearch_gpu.py
 # Set STAGE = 2
+# The results in [./output/eval_L15/S2]
 ```
 
 ## Citation
