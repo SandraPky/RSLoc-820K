@@ -11,7 +11,7 @@
 
 The dataset contains **820,000+** high-resolution remote sensing images covering **1 million square kilometers** of diverse terrain, supporting the evaluation of geospatial modeling-based localization algorithms.
 
-🔗 **Data Access** | 📄 [Paper Link (To Be Published)]() | 📦 [Dataset](https://github.com/SandraPky/RSLoc-82K) | 💻 [Code Repository](https://github.com/SandraPky/RSLoc-82K)
+🔗 **Data Access** | 📄 [Paper Link (To Be Published)](https://ieeexplore.ieee.org/document/11072235) | 📦 [Dataset](https://github.com/SandraPky/RSLoc-82K) | 💻 [Code Repository](https://github.com/SandraPky/RSLoc-82K)
 
 
 ## 🌍 Dataset Highlights
