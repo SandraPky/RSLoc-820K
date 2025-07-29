@@ -1,7 +1,7 @@
 
 # Large-Scale Geo-Localization of Remote Sensing Images: A Three-Stage Framework Leveraging Maximal Clique Theory
 
-🔗 **数据访问** | 📄 [论文链接（待发布）]() | 📦 [数据集](https://github.com/SandraPky/RSLoc-820K/blob/main/README_RSLoc-820K.md) | 💻 [代码仓库](https://github.com/SandraPky/RSLoc-820K)
+🔗 **数据访问** | 📄 [论文链接（待发布）](https://ieeexplore.ieee.org/document/11072235) | 📦 [数据集](https://github.com/SandraPky/RSLoc-820K/blob/main/README_RSLoc-820K.md) | 💻 [代码仓库](https://github.com/SandraPky/RSLoc-820K)
 
 ---
 
